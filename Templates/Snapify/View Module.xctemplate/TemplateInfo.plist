@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Snapify ViewController Module (Protocol oriented).</string>
+	<key>Summary</key>
+	<string>Snapify ViewController Module (Protocol oriented) template, including: View, Presenter, Navigator.</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module name:</string>
+			<key>Description</key>
+			<string>The name of the SwarmKit module</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>UI definition type:</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Storyboard</string>
+			<key>Values</key>
+			<array>
+				<string>Code</string>
+				<string>XIB</string>
+				<string>Storyboard</string>
+			</array>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

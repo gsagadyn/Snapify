@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BaU-2v-Ukl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="KoM-hH-vlr">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="BaU-2v-Ukl" customClass="DetailViewController" customModule="SwarmKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KDa-7W-dlX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGt-8N-YGO">
+                                <rect key="frame" x="187" y="333.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr0-MD-D0q">
+                                <rect key="frame" x="167.5" y="341.5" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="BaU-2v-Ukl" eventType="touchUpInside" id="2L9-7M-TY9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yr0-MD-D0q" firstAttribute="top" secondItem="DGt-8N-YGO" secondAttribute="bottom" constant="8" id="029-dG-Vhz"/>
+                            <constraint firstItem="DGt-8N-YGO" firstAttribute="centerY" secondItem="KDa-7W-dlX" secondAttribute="centerY" id="ADr-Ou-Lap"/>
+                            <constraint firstItem="yr0-MD-D0q" firstAttribute="centerX" secondItem="DGt-8N-YGO" secondAttribute="centerX" id="Ifo-BK-2bt"/>
+                            <constraint firstItem="DGt-8N-YGO" firstAttribute="centerX" secondItem="KDa-7W-dlX" secondAttribute="centerX" id="oCZ-1g-wEX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jU0-EV-19J"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="DGt-8N-YGO" id="nZn-JW-4Bp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7nb-Yq-VOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="116"/>
+        </scene>
+    </scenes>
+</document>

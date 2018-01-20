@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Snapify_Example' do
+  pod 'Snapify', :path => '../'
+
+  target 'Snapify_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
