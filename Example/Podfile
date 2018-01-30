@@ -1,4 +1,5 @@
 use_frameworks!
+platform :ios, '9.3'
 
 target 'Snapify_Example' do
   pod 'Snapify', :path => '../'
