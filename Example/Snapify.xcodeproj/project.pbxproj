@@ -56,7 +56,7 @@
 		2F5B0FDC2013F27100303C7B /* DetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigator.swift; sourceTree = "<group>"; };
 		2F5B0FDD2013F27100303C7B /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		2F5B0FDE2013F27100303C7B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		3585D1452D474BCB981EC560 /* Snapify.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Snapify.podspec; path = ../Snapify.podspec; sourceTree = "<group>"; };
+		3585D1452D474BCB981EC560 /* Snapify.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Snapify.podspec; path = ../Snapify.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* Snapify_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapify_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
