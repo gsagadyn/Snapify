@@ -11,9 +11,9 @@ import Foundation
 public enum DependencyType {
     
     /// Dependency always returns new instance of resolving interface/class
-    case Weak
+    case weak
     
     /// Dependency always returns the same instance of resolving interface/class
-    case Strong
+    case strong
     
 }

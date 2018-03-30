@@ -65,7 +65,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping (())->T) {
+    public func bind<T>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping (())->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             return closure(())
         }
@@ -79,7 +79,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A))->T) {
+    public func bind<T, A>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             return closure((a))
@@ -94,7 +94,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A, B>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A, B))->T) {
+    public func bind<T, A, B>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A, B))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             let b: B = self[B.self]
@@ -110,7 +110,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A, B, C>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A, B, C))->T) {
+    public func bind<T, A, B, C>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A, B, C))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             let b: B = self[B.self]
@@ -127,7 +127,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A, B, C, D>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A, B, C, D))->T) {
+    public func bind<T, A, B, C, D>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A, B, C, D))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             let b: B = self[B.self]
@@ -145,7 +145,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A, B, C, D, E>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A, B, C, D, E))->T) {
+    public func bind<T, A, B, C, D, E>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A, B, C, D, E))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             let b: B = self[B.self]
@@ -164,7 +164,7 @@ extension DependencyStore {
     ///   - name: Name of dependency.
     ///   - dependencyType: Defines dependency type [weak / strong].
     ///   - closure: Closure that produce an injection object.
-    public func bind<T, A, B, C, D, E, F>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .Weak, closure: @escaping ((A, B, C, D, E, F))->T) {
+    public func bind<T, A, B, C, D, E, F>(type: T.Type = T.self, name: String? = nil, dependencyType: DependencyType = .weak, closure: @escaping ((A, B, C, D, E, F))->T) {
         dependencyDescriptors[type, name] = DependencyDescriptor(dependencyType: dependencyType) {
             let a: A = self[A.self]
             let b: B = self[B.self]

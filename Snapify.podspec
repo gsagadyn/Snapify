@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Snapify'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Swift implementation of Snapify architecture.'
   s.homepage         = 'https://github.com/gsagadyn/Snapify'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
