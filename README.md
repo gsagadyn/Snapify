@@ -27,7 +27,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - iOS 9.3+
 - Xcode 9
-- Swift 4.0
+- Swift 4.1
 
 #### CocoaPods
 

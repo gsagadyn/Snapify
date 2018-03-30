@@ -6,7 +6,5 @@ target 'Snapify_Example' do
 
   target 'Snapify_Tests' do
     inherit! :search_paths
-
-    
   end
 end

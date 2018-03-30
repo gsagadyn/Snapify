@@ -13,7 +13,7 @@ public protocol INavigatorLayer: SnapifyLayer {
     
     /// The View Controller instance.
     /// [IMPORTANT] Should be a weak reference.
-    weak var viewController: UIViewController? { get }
+    var viewController: UIViewController? { get }
     
     /// Initialize Rotuter layer.
     ///
