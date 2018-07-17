@@ -189,7 +189,7 @@ extension DependencyStore {
     /// - parameters:
     ///   - type: Protocol or a Class.
     ///   - name: Name of dependency.
-    func reestablish<T>(type: T.Type, name: String? = nil) {
+    public func reestablish<T>(type: T.Type, name: String? = nil) {
         dependencyDescriptors[type, name].reestablish()
     }
     
