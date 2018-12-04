@@ -9,7 +9,7 @@
 import UIKit
 import Snapify
 
-class ___VARIABLE_productName___ViewController: UserInterfaceLayer.Controller<___VARIABLE_productName___Presenter> {
+class ___VARIABLE_productName___ViewController: UserInterfaceLayer.Controller<___VARIABLE_productName___Presenter>, UIStoryboardInstantiate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
