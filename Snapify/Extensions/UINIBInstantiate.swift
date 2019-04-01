@@ -10,7 +10,7 @@ import UIKit
 /// Adds methods to create an instance of view controller from nib.
 public protocol UINIBInstantiate { }
 
-public extension UINIBInstantiate where Self: UIViewController {
+extension UINIBInstantiate where Self: UIViewController {
     
     /// Instantiates UIViewController from NIB.
     ///
@@ -24,7 +24,7 @@ public extension UINIBInstantiate where Self: UIViewController {
     
 }
 
-public extension UINIBInstantiate where Self: UIView {
+extension UINIBInstantiate where Self: UIView {
     
     /// Instantiates UIView from NIB.
     ///

@@ -10,7 +10,7 @@ import UIKit
 /// Adds methods to create an instance of view controller from storyboard.
 public protocol UIStoryboardInstantiate { }
 
-public extension UIStoryboardInstantiate where Self: UIViewController {
+extension UIStoryboardInstantiate where Self: UIViewController {
     
     /// Instantiates view controller from storyboard.
     ///
