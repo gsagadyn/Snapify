@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name             = 'Snapify'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'Swift implementation of Snapify architecture.'
   s.homepage         = 'https://github.com/gsagadyn/Snapify'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Grzegorz Sagadyn' => 'sagadyn@gmail.com' }
   s.source           = { :git => 'https://github.com/gsagadyn/Snapify.git', :tag => s.version.to_s }
 
-  s.swift_version = "5.0"
-  s.ios.deployment_target = '9.3'
+  s.swift_version = "5.1"
+  s.ios.deployment_target = '11.0'
   s.frameworks = 'UIKit', 'Foundation'
   s.requires_arc = true
   s.default_subspecs = 'Core', 'Store', 'Extensions'
