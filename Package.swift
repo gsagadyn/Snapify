@@ -11,6 +11,6 @@ let package = Package(
         .library(name: "Snapify", targets: ["Snapify"])
     ],
     targets: [
-        .target(name: "Snapify", dependencies: [], path: "Snapify", resources: [])
+        .target(name: "Snapify", dependencies: [], path: "Snapify")
     ]
 )
