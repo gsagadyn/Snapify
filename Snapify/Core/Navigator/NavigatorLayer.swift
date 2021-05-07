@@ -5,7 +5,7 @@
 //  Created by Grzegorz Sagadyn on 05.01.2018.
 //
 
-import Foundation
+import UIKit
 
 /// Base implementation of INavigatorLayer.
 open class NavigatorLayer: INavigatorLayer {
